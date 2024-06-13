@@ -1,0 +1,1126 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9316A17928A18C1B00E12481 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316A17828A18C1B00E12481 /* MoreView.swift */; };
+		9316A17B28A1907F00E12481 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316A17A28A1907F00E12481 /* HomeView.swift */; };
+		9316A17D28A190B600E12481 /* MuseumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316A17C28A190B600E12481 /* MuseumView.swift */; };
+		933512B42BAFA3FF0007FDEE /* Objects.json in Resources */ = {isa = PBXBuildFile; fileRef = 933512B32BAFA3FF0007FDEE /* Objects.json */; };
+		933512BC2BB0AEE50007FDEE /* Crops.json in Resources */ = {isa = PBXBuildFile; fileRef = 933512BB2BB0AEE50007FDEE /* Crops.json */; };
+		933512BE2BB0AF000007FDEE /* FarmAnimals.json in Resources */ = {isa = PBXBuildFile; fileRef = 933512BD2BB0AF000007FDEE /* FarmAnimals.json */; };
+		933512C02BB0AF1A0007FDEE /* BigCraftables.json in Resources */ = {isa = PBXBuildFile; fileRef = 933512BF2BB0AF1A0007FDEE /* BigCraftables.json */; };
+		933512C22BB0AF2D0007FDEE /* Characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 933512C12BB0AF2D0007FDEE /* Characters.json */; };
+		933512C42BB0AF4F0007FDEE /* FishPondData.json in Resources */ = {isa = PBXBuildFile; fileRef = 933512C32BB0AF4F0007FDEE /* FishPondData.json */; };
+		933512C62BB0AF690007FDEE /* Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 933512C52BB0AF690007FDEE /* Locations.json */; };
+		933512C82BB0AF700007FDEE /* FruitTrees.json in Resources */ = {isa = PBXBuildFile; fileRef = 933512C72BB0AF700007FDEE /* FruitTrees.json */; };
+		933512CA2BB0AF7B0007FDEE /* RandomBundles.json in Resources */ = {isa = PBXBuildFile; fileRef = 933512C92BB0AF7B0007FDEE /* RandomBundles.json */; };
+		933512CC2BB0AFE20007FDEE /* ObjectsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512CB2BB0AFE20007FDEE /* ObjectsService.swift */; };
+		933512CE2BB0B13F0007FDEE /* CropsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512CD2BB0B13F0007FDEE /* CropsService.swift */; };
+		933512D02BB0B14F0007FDEE /* FarmAnimalsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512CF2BB0B14F0007FDEE /* FarmAnimalsService.swift */; };
+		933512D22BB0B1610007FDEE /* BigCraftablesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512D12BB0B1610007FDEE /* BigCraftablesService.swift */; };
+		933512D52BB0B1BC0007FDEE /* VillagersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512D42BB0B1BC0007FDEE /* VillagersService.swift */; };
+		933512D72BB0B3CD0007FDEE /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512D62BB0B3CD0007FDEE /* GameObject.swift */; };
+		933512D92BB0B3FF0007FDEE /* FruitTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512D82BB0B3FF0007FDEE /* FruitTree.swift */; };
+		933512DB2BB0B4FB0007FDEE /* Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512DA2BB0B4FB0007FDEE /* Crop.swift */; };
+		933512DD2BB0B5040007FDEE /* FarmAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512DC2BB0B5040007FDEE /* FarmAnimal.swift */; };
+		933512DF2BB0B5120007FDEE /* BigCraftable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512DE2BB0B5120007FDEE /* BigCraftable.swift */; };
+		933512E12BB0B51A0007FDEE /* Villager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512E02BB0B51A0007FDEE /* Villager.swift */; };
+		933512E32BB0B5420007FDEE /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512E22BB0B5420007FDEE /* Weapon.swift */; };
+		933512E52BB0B54F0007FDEE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512E42BB0B54F0007FDEE /* Location.swift */; };
+		933512E72BB0B56C0007FDEE /* PondFish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512E62BB0B56C0007FDEE /* PondFish.swift */; };
+		933512FE2BB0BAD30007FDEE /* CropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512FD2BB0BAD30007FDEE /* CropViewModel.swift */; };
+		933513002BB0CFE50007FDEE /* VillagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933512FF2BB0CFE50007FDEE /* VillagerViewModel.swift */; };
+		933513022BB0D1910007FDEE /* VillagerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933513012BB0D1910007FDEE /* VillagerDetailView.swift */; };
+		933513042BB0D65F0007FDEE /* FarmAnimalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933513032BB0D65F0007FDEE /* FarmAnimalViewModel.swift */; };
+		933513082BB0E0860007FDEE /* Fish.json in Resources */ = {isa = PBXBuildFile; fileRef = 933513072BB0E0860007FDEE /* Fish.json */; };
+		9335130A2BB0E0C10007FDEE /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933513092BB0E0C10007FDEE /* Gift.swift */; };
+		9335130C2BB0E15A0007FDEE /* GiftService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335130B2BB0E15A0007FDEE /* GiftService.swift */; };
+		9359EFB228753413004638C9 /* StardewHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359EFB128753413004638C9 /* StardewHelperApp.swift */; };
+		9359EFB428753413004638C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359EFB328753413004638C9 /* ContentView.swift */; };
+		9359EFB628753417004638C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9359EFB528753417004638C9 /* Assets.xcassets */; };
+		9359EFB928753417004638C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9359EFB828753417004638C9 /* Preview Assets.xcassets */; };
+		9359EFC328753417004638C9 /* StardewHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359EFC228753417004638C9 /* StardewHelperTests.swift */; };
+		9359EFCD28753417004638C9 /* StardewHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359EFCC28753417004638C9 /* StardewHelperUITests.swift */; };
+		9359EFCF28753417004638C9 /* StardewHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359EFCE28753417004638C9 /* StardewHelperUITestsLaunchTests.swift */; };
+		9359EFE22875FD11004638C9 /* FishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359EFE12875FD11004638C9 /* FishListView.swift */; };
+		9359EFF028765ED5004638C9 /* FishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359EFEF28765ED5004638C9 /* FishDetailView.swift */; };
+		9359EFF828766ABE004638C9 /* VillagerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359EFF728766ABE004638C9 /* VillagerListView.swift */; };
+		9359EFFA28766AD9004638C9 /* CropListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359EFF928766AD9004638C9 /* CropListView.swift */; };
+		9359F0012877B33D004638C9 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359F0002877B33D004638C9 /* LocationListView.swift */; };
+		9359F0052877B35C004638C9 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359F0042877B35C004638C9 /* LocationDetailView.swift */; };
+		9359F01128788DF8004638C9 /* CropDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359F01028788DF8004638C9 /* CropDetailView.swift */; };
+		9359F0172878CB69004638C9 /* StandardBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359F0162878CB69004638C9 /* StandardBundle.swift */; };
+		9359F01C2878CCB9004638C9 /* BundleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359F01B2878CCB9004638C9 /* BundleListView.swift */; };
+		9359F01E2878CD1F004638C9 /* RemixBundleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9359F01D2878CD1F004638C9 /* RemixBundleDetailView.swift */; };
+		935B232C2BBE484E004A673E /* ProfileEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B232A2BBE484E004A673E /* ProfileEntity+CoreDataClass.swift */; };
+		935B232D2BBE484E004A673E /* ProfileEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B232B2BBE484E004A673E /* ProfileEntity+CoreDataProperties.swift */; };
+		935B232F2BBE52E1004A673E /* DateButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B232E2BBE52E1004A673E /* DateButtons.swift */; };
+		935B23312BBE6291004A673E /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B23302BBE6291004A673E /* DateUtils.swift */; };
+		9389CFDF2BB52D7D00A5431C /* ObjectStrings.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9389CFDE2BB52D7D00A5431C /* ObjectStrings.xcstrings */; };
+		9389CFE22BB64D0700A5431C /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389CFE12BB64D0700A5431C /* StringUtils.swift */; };
+		9389CFE42BB7866C00A5431C /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389CFE32BB7866C00A5431C /* LoadData.swift */; };
+		9389CFE62BB78B9800A5431C /* RemixBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389CFE52BB78B9800A5431C /* RemixBundle.swift */; };
+		9389CFE82BB78D9A00A5431C /* RemixBundlesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389CFE72BB78D9A00A5431C /* RemixBundlesService.swift */; };
+		9389CFEA2BB78DE200A5431C /* BundleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389CFE92BB78DE200A5431C /* BundleViewModel.swift */; };
+		9389CFEE2BB7AAB800A5431C /* StandardBundlesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389CFED2BB7AAB800A5431C /* StandardBundlesService.swift */; };
+		9389CFF02BB7B0C200A5431C /* StandardBundles.json in Resources */ = {isa = PBXBuildFile; fileRef = 9389CFEF2BB7B0C200A5431C /* StandardBundles.json */; };
+		9389CFF22BB7B3AF00A5431C /* StandardBundleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389CFF12BB7B3AF00A5431C /* StandardBundleDetailView.swift */; };
+		93A9A8CD2B28EDA0003BC04B /* FarmAnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A9A8CC2B28EDA0003BC04B /* FarmAnimalListView.swift */; };
+		93AFB5642BB8988C00326476 /* Weapons.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 93AFB5632BB8988C00326476 /* Weapons.xcstrings */; };
+		93AFB56E2BB8991400326476 /* Buildings.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 93AFB56D2BB8991400326476 /* Buildings.xcstrings */; };
+		93AFB5802BB89A4A00326476 /* Furniture.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 93AFB57F2BB89A4A00326476 /* Furniture.xcstrings */; };
+		93AFB5822BB89A5F00326476 /* BigCraftables.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 93AFB5812BB89A5F00326476 /* BigCraftables.xcstrings */; };
+		93AFB5882BB89AD200326476 /* 1_6_Strings.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 93AFB5872BB89AD200326476 /* 1_6_Strings.xcstrings */; };
+		93AFB5942BB89B5D00326476 /* NPCNames.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 93AFB5932BB89B5D00326476 /* NPCNames.xcstrings */; };
+		93AFB5962BB8B5BC00326476 /* Categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 93AFB5952BB8B5BC00326476 /* Categories.json */; };
+		93AFB5982BB8C13D00326476 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB5972BB8C13D00326476 /* Category.swift */; };
+		93AFB59A2BB8C7ED00326476 /* CategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB5992BB8C7ED00326476 /* CategoryService.swift */; };
+		93AFB59C2BB8D7D200326476 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB59B2BB8D7D200326476 /* ProfileView.swift */; };
+		93AFB59F2BB8DC7700326476 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB59E2BB8DC7700326476 /* EditProfileView.swift */; };
+		93AFB5A12BB8DEFC00326476 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB5A02BB8DEFC00326476 /* ColorUtils.swift */; };
+		93AFB5A42BB8E97500326476 /* ProfileContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB5A22BB8E97500326476 /* ProfileContainer.xcdatamodeld */; };
+		93AFB5A62BB8EA6100326476 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB5A52BB8EA6100326476 /* ProfileService.swift */; };
+		93AFB5A82BB8F05500326476 /* PlayerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AFB5A72BB8F05500326476 /* PlayerProfile.swift */; };
+		93BE3B592BBFC1E900F2BE51 /* MuseumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE3B582BBFC1E900F2BE51 /* MuseumViewModel.swift */; };
+		93BE3B5D2BC0B2B900F2BE51 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE3B5C2BC0B2B900F2BE51 /* CoreDataViewModel.swift */; };
+		93BE3B5F2BC0D99800F2BE51 /* JSONUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE3B5E2BC0D99800F2BE51 /* JSONUtils.swift */; };
+		93BE3B622BC38A7A00F2BE51 /* SelectedProfile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE3B602BC38A7A00F2BE51 /* SelectedProfile+CoreDataClass.swift */; };
+		93BE3B632BC38A7A00F2BE51 /* SelectedProfile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE3B612BC38A7A00F2BE51 /* SelectedProfile+CoreDataProperties.swift */; };
+		93C3ECB42BB114E400A40059 /* Gifts.json in Resources */ = {isa = PBXBuildFile; fileRef = 93C3ECB32BB114E400A40059 /* Gifts.json */; };
+		93C3ECB62BB2537500A40059 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C3ECB52BB2537500A40059 /* Fish.swift */; };
+		93C3ECB82BB269B800A40059 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C3ECB72BB269B800A40059 /* LocationService.swift */; };
+		93C3ECBA2BB26A5900A40059 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C3ECB92BB26A5900A40059 /* LocationViewModel.swift */; };
+		93C3ECBC2BB2806200A40059 /* Furniture.json in Resources */ = {isa = PBXBuildFile; fileRef = 93C3ECBB2BB2806200A40059 /* Furniture.json */; };
+		93C3ECBE2BB287A600A40059 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C3ECBD2BB287A600A40059 /* Furniture.swift */; };
+		93C3ECC02BB288A400A40059 /* FurnitureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C3ECBF2BB288A400A40059 /* FurnitureService.swift */; };
+		93C824C42B2C87FC00B6B1D8 /* FarmAnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C824C32B2C87FC00B6B1D8 /* FarmAnimalDetailView.swift */; };
+		93EA16362BBA81BD00B791CE /* FestivalDates.json in Resources */ = {isa = PBXBuildFile; fileRef = 93EA16352BBA81BD00B791CE /* FestivalDates.json */; };
+		93EA16382BBA829900B791CE /* Trinkets.json in Resources */ = {isa = PBXBuildFile; fileRef = 93EA16372BBA829900B791CE /* Trinkets.json */; };
+		93FD0DF62BAE5B790031326B /* FishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD0DF52BAE5B790031326B /* FishViewModel.swift */; };
+		93FD0DF92BAE62660031326B /* FishService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD0DF82BAE62660031326B /* FishService.swift */; };
+		93FD0DFC2BAE6AFF0031326B /* CheckboxToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD0DFB2BAE6AFF0031326B /* CheckboxToggle.swift */; };
+		93FD0DFE2BAE6EFE0031326B /* FishRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD0DFD2BAE6EFE0031326B /* FishRow.swift */; };
+		93FD0E002BAE72910031326B /* DataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD0DFF2BAE72910031326B /* DataRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9359EFBF28753417004638C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9359EFA628753413004638C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9359EFAD28753413004638C9;
+			remoteInfo = StardewHelper;
+		};
+		9359EFC928753417004638C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9359EFA628753413004638C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9359EFAD28753413004638C9;
+			remoteInfo = StardewHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9316A17828A18C1B00E12481 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		9316A17A28A1907F00E12481 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9316A17C28A190B600E12481 /* MuseumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumView.swift; sourceTree = "<group>"; };
+		933512B32BAFA3FF0007FDEE /* Objects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Objects.json; sourceTree = "<group>"; };
+		933512BA2BB0AEC30007FDEE /* Weapons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Weapons.json; sourceTree = "<group>"; };
+		933512BB2BB0AEE50007FDEE /* Crops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Crops.json; path = "../../../scripts/stardew-helper-data-v2/script_input/Crops.json"; sourceTree = "<group>"; };
+		933512BD2BB0AF000007FDEE /* FarmAnimals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = FarmAnimals.json; path = "../../../scripts/stardew-helper-data-v2/script_input/FarmAnimals.json"; sourceTree = "<group>"; };
+		933512BF2BB0AF1A0007FDEE /* BigCraftables.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BigCraftables.json; path = "../../../scripts/stardew-helper-data-v2/script_input/BigCraftables.json"; sourceTree = "<group>"; };
+		933512C12BB0AF2D0007FDEE /* Characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Characters.json; path = "../../../scripts/stardew-helper-data-v2/script_input/Characters.json"; sourceTree = "<group>"; };
+		933512C32BB0AF4F0007FDEE /* FishPondData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = FishPondData.json; path = "../../../scripts/stardew-helper-data-v2/script_input/FishPondData.json"; sourceTree = "<group>"; };
+		933512C52BB0AF690007FDEE /* Locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Locations.json; path = "../../../scripts/stardew-helper-data-v2/script_input/Locations.json"; sourceTree = "<group>"; };
+		933512C72BB0AF700007FDEE /* FruitTrees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = FruitTrees.json; path = "../../../scripts/stardew-helper-data-v2/script_input/FruitTrees.json"; sourceTree = "<group>"; };
+		933512C92BB0AF7B0007FDEE /* RandomBundles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = RandomBundles.json; path = "../../../scripts/stardew-helper-data-v2/script_input/RandomBundles.json"; sourceTree = "<group>"; };
+		933512CB2BB0AFE20007FDEE /* ObjectsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsService.swift; sourceTree = "<group>"; };
+		933512CD2BB0B13F0007FDEE /* CropsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropsService.swift; sourceTree = "<group>"; };
+		933512CF2BB0B14F0007FDEE /* FarmAnimalsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmAnimalsService.swift; sourceTree = "<group>"; };
+		933512D12BB0B1610007FDEE /* BigCraftablesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigCraftablesService.swift; sourceTree = "<group>"; };
+		933512D42BB0B1BC0007FDEE /* VillagersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagersService.swift; sourceTree = "<group>"; };
+		933512D62BB0B3CD0007FDEE /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		933512D82BB0B3FF0007FDEE /* FruitTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTree.swift; sourceTree = "<group>"; };
+		933512DA2BB0B4FB0007FDEE /* Crop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crop.swift; sourceTree = "<group>"; };
+		933512DC2BB0B5040007FDEE /* FarmAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmAnimal.swift; sourceTree = "<group>"; };
+		933512DE2BB0B5120007FDEE /* BigCraftable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigCraftable.swift; sourceTree = "<group>"; };
+		933512E02BB0B51A0007FDEE /* Villager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Villager.swift; sourceTree = "<group>"; };
+		933512E22BB0B5420007FDEE /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		933512E42BB0B54F0007FDEE /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		933512E62BB0B56C0007FDEE /* PondFish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PondFish.swift; sourceTree = "<group>"; };
+		933512FD2BB0BAD30007FDEE /* CropViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropViewModel.swift; sourceTree = "<group>"; };
+		933512FF2BB0CFE50007FDEE /* VillagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerViewModel.swift; sourceTree = "<group>"; };
+		933513012BB0D1910007FDEE /* VillagerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerDetailView.swift; sourceTree = "<group>"; };
+		933513032BB0D65F0007FDEE /* FarmAnimalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmAnimalViewModel.swift; sourceTree = "<group>"; };
+		933513072BB0E0860007FDEE /* Fish.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Fish.json; sourceTree = "<group>"; };
+		933513092BB0E0C10007FDEE /* Gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
+		9335130B2BB0E15A0007FDEE /* GiftService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftService.swift; sourceTree = "<group>"; };
+		9359EFAE28753413004638C9 /* StardewHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StardewHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9359EFB128753413004638C9 /* StardewHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardewHelperApp.swift; sourceTree = "<group>"; };
+		9359EFB328753413004638C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9359EFB528753417004638C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9359EFB828753417004638C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9359EFBE28753417004638C9 /* StardewHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StardewHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9359EFC228753417004638C9 /* StardewHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardewHelperTests.swift; sourceTree = "<group>"; };
+		9359EFC828753417004638C9 /* StardewHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StardewHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9359EFCC28753417004638C9 /* StardewHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardewHelperUITests.swift; sourceTree = "<group>"; };
+		9359EFCE28753417004638C9 /* StardewHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardewHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9359EFE12875FD11004638C9 /* FishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishListView.swift; sourceTree = "<group>"; };
+		9359EFEF28765ED5004638C9 /* FishDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishDetailView.swift; sourceTree = "<group>"; };
+		9359EFF728766ABE004638C9 /* VillagerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerListView.swift; sourceTree = "<group>"; };
+		9359EFF928766AD9004638C9 /* CropListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropListView.swift; sourceTree = "<group>"; };
+		9359F0002877B33D004638C9 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		9359F0042877B35C004638C9 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		9359F01028788DF8004638C9 /* CropDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropDetailView.swift; sourceTree = "<group>"; };
+		9359F0162878CB69004638C9 /* StandardBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardBundle.swift; sourceTree = "<group>"; };
+		9359F01B2878CCB9004638C9 /* BundleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleListView.swift; sourceTree = "<group>"; };
+		9359F01D2878CD1F004638C9 /* RemixBundleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemixBundleDetailView.swift; sourceTree = "<group>"; };
+		935B232A2BBE484E004A673E /* ProfileEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ProfileEntity+CoreDataClass.swift"; path = "StardewHelper/CoreData/ProfileEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		935B232B2BBE484E004A673E /* ProfileEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ProfileEntity+CoreDataProperties.swift"; path = "StardewHelper/CoreData/ProfileEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		935B232E2BBE52E1004A673E /* DateButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButtons.swift; sourceTree = "<group>"; };
+		935B23302BBE6291004A673E /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		9389CFDE2BB52D7D00A5431C /* ObjectStrings.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = ObjectStrings.xcstrings; sourceTree = "<group>"; };
+		9389CFE12BB64D0700A5431C /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		9389CFE32BB7866C00A5431C /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
+		9389CFE52BB78B9800A5431C /* RemixBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemixBundle.swift; sourceTree = "<group>"; };
+		9389CFE72BB78D9A00A5431C /* RemixBundlesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemixBundlesService.swift; sourceTree = "<group>"; };
+		9389CFE92BB78DE200A5431C /* BundleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleViewModel.swift; sourceTree = "<group>"; };
+		9389CFED2BB7AAB800A5431C /* StandardBundlesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardBundlesService.swift; sourceTree = "<group>"; };
+		9389CFEF2BB7B0C200A5431C /* StandardBundles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StandardBundles.json; sourceTree = "<group>"; };
+		9389CFF12BB7B3AF00A5431C /* StandardBundleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardBundleDetailView.swift; sourceTree = "<group>"; };
+		93A9A8CC2B28EDA0003BC04B /* FarmAnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmAnimalListView.swift; sourceTree = "<group>"; };
+		93AFB5632BB8988C00326476 /* Weapons.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Weapons.xcstrings; sourceTree = "<group>"; };
+		93AFB56D2BB8991400326476 /* Buildings.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Buildings.xcstrings; sourceTree = "<group>"; };
+		93AFB57F2BB89A4A00326476 /* Furniture.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Furniture.xcstrings; sourceTree = "<group>"; };
+		93AFB5812BB89A5F00326476 /* BigCraftables.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = BigCraftables.xcstrings; sourceTree = "<group>"; };
+		93AFB5872BB89AD200326476 /* 1_6_Strings.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = 1_6_Strings.xcstrings; sourceTree = "<group>"; };
+		93AFB5932BB89B5D00326476 /* NPCNames.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = NPCNames.xcstrings; sourceTree = "<group>"; };
+		93AFB5952BB8B5BC00326476 /* Categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Categories.json; sourceTree = "<group>"; };
+		93AFB5972BB8C13D00326476 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		93AFB5992BB8C7ED00326476 /* CategoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryService.swift; sourceTree = "<group>"; };
+		93AFB59B2BB8D7D200326476 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		93AFB59E2BB8DC7700326476 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		93AFB5A02BB8DEFC00326476 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		93AFB5A32BB8E97500326476 /* ProfileContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProfileContainer.xcdatamodel; sourceTree = "<group>"; };
+		93AFB5A52BB8EA6100326476 /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		93AFB5A72BB8F05500326476 /* PlayerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProfile.swift; sourceTree = "<group>"; };
+		93BE3B582BBFC1E900F2BE51 /* MuseumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumViewModel.swift; sourceTree = "<group>"; };
+		93BE3B5C2BC0B2B900F2BE51 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
+		93BE3B5E2BC0D99800F2BE51 /* JSONUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUtils.swift; sourceTree = "<group>"; };
+		93BE3B602BC38A7A00F2BE51 /* SelectedProfile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SelectedProfile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		93BE3B612BC38A7A00F2BE51 /* SelectedProfile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SelectedProfile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		93C3ECB32BB114E400A40059 /* Gifts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Gifts.json; sourceTree = "<group>"; };
+		93C3ECB52BB2537500A40059 /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		93C3ECB72BB269B800A40059 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		93C3ECB92BB26A5900A40059 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		93C3ECBB2BB2806200A40059 /* Furniture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Furniture.json; sourceTree = "<group>"; };
+		93C3ECBD2BB287A600A40059 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
+		93C3ECBF2BB288A400A40059 /* FurnitureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureService.swift; sourceTree = "<group>"; };
+		93C824C32B2C87FC00B6B1D8 /* FarmAnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmAnimalDetailView.swift; sourceTree = "<group>"; };
+		93EA16352BBA81BD00B791CE /* FestivalDates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FestivalDates.json; sourceTree = "<group>"; };
+		93EA16372BBA829900B791CE /* Trinkets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Trinkets.json; sourceTree = "<group>"; };
+		93FD0DF52BAE5B790031326B /* FishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishViewModel.swift; sourceTree = "<group>"; };
+		93FD0DF82BAE62660031326B /* FishService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishService.swift; sourceTree = "<group>"; };
+		93FD0DFB2BAE6AFF0031326B /* CheckboxToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxToggle.swift; sourceTree = "<group>"; };
+		93FD0DFD2BAE6EFE0031326B /* FishRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishRow.swift; sourceTree = "<group>"; };
+		93FD0DFF2BAE72910031326B /* DataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9359EFAB28753413004638C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9359EFBB28753417004638C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9359EFC528753417004638C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		933512B92BB0AEBA0007FDEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93EA16372BBA829900B791CE /* Trinkets.json */,
+				93EA16352BBA81BD00B791CE /* FestivalDates.json */,
+				93AFB5952BB8B5BC00326476 /* Categories.json */,
+				9389CFEF2BB7B0C200A5431C /* StandardBundles.json */,
+				933513072BB0E0860007FDEE /* Fish.json */,
+				93C3ECB32BB114E400A40059 /* Gifts.json */,
+				933512C92BB0AF7B0007FDEE /* RandomBundles.json */,
+				933512C72BB0AF700007FDEE /* FruitTrees.json */,
+				933512C52BB0AF690007FDEE /* Locations.json */,
+				933512C32BB0AF4F0007FDEE /* FishPondData.json */,
+				933512C12BB0AF2D0007FDEE /* Characters.json */,
+				93C3ECBB2BB2806200A40059 /* Furniture.json */,
+				933512BB2BB0AEE50007FDEE /* Crops.json */,
+				933512BA2BB0AEC30007FDEE /* Weapons.json */,
+				933512BF2BB0AF1A0007FDEE /* BigCraftables.json */,
+				933512BD2BB0AF000007FDEE /* FarmAnimals.json */,
+				933512B32BAFA3FF0007FDEE /* Objects.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		933512D32BB0B1740007FDEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				933512D62BB0B3CD0007FDEE /* GameObject.swift */,
+				933512D82BB0B3FF0007FDEE /* FruitTree.swift */,
+				933512DA2BB0B4FB0007FDEE /* Crop.swift */,
+				933512DC2BB0B5040007FDEE /* FarmAnimal.swift */,
+				933512DE2BB0B5120007FDEE /* BigCraftable.swift */,
+				933512E02BB0B51A0007FDEE /* Villager.swift */,
+				933512E22BB0B5420007FDEE /* Weapon.swift */,
+				933512E42BB0B54F0007FDEE /* Location.swift */,
+				933512E62BB0B56C0007FDEE /* PondFish.swift */,
+				933513092BB0E0C10007FDEE /* Gift.swift */,
+				93C3ECB52BB2537500A40059 /* Fish.swift */,
+				93C3ECBD2BB287A600A40059 /* Furniture.swift */,
+				9359F0162878CB69004638C9 /* StandardBundle.swift */,
+				9389CFE52BB78B9800A5431C /* RemixBundle.swift */,
+				93AFB5972BB8C13D00326476 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9359EFA528753413004638C9 = {
+			isa = PBXGroup;
+			children = (
+				93BE3B602BC38A7A00F2BE51 /* SelectedProfile+CoreDataClass.swift */,
+				93BE3B612BC38A7A00F2BE51 /* SelectedProfile+CoreDataProperties.swift */,
+				935B232A2BBE484E004A673E /* ProfileEntity+CoreDataClass.swift */,
+				935B232B2BBE484E004A673E /* ProfileEntity+CoreDataProperties.swift */,
+				9359EFB028753413004638C9 /* StardewHelper */,
+				9359EFC128753417004638C9 /* StardewHelperTests */,
+				9359EFCB28753417004638C9 /* StardewHelperUITests */,
+				9359EFAF28753413004638C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9359EFAF28753413004638C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9359EFAE28753413004638C9 /* StardewHelper.app */,
+				9359EFBE28753417004638C9 /* StardewHelperTests.xctest */,
+				9359EFC828753417004638C9 /* StardewHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9359EFB028753413004638C9 /* StardewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				933512B92BB0AEBA0007FDEE /* Resources */,
+				93FEF7F42BBBA70B00BD2616 /* CoreData */,
+				9359EFB128753413004638C9 /* StardewHelperApp.swift */,
+				933512D32BB0B1740007FDEE /* Model */,
+				93FD0DF72BAE624B0031326B /* Services */,
+				93FD0DF12BAE4D890031326B /* Core */,
+				9359EFB528753417004638C9 /* Assets.xcassets */,
+				9359EFB728753417004638C9 /* Preview Content */,
+				938FCA9E2BB3CAD10007A4F7 /* StringResources */,
+			);
+			path = StardewHelper;
+			sourceTree = "<group>";
+		};
+		9359EFB728753417004638C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9359EFB828753417004638C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9359EFC128753417004638C9 /* StardewHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				9359EFC228753417004638C9 /* StardewHelperTests.swift */,
+			);
+			path = StardewHelperTests;
+			sourceTree = "<group>";
+		};
+		9359EFCB28753417004638C9 /* StardewHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9359EFCC28753417004638C9 /* StardewHelperUITests.swift */,
+				9359EFCE28753417004638C9 /* StardewHelperUITestsLaunchTests.swift */,
+			);
+			path = StardewHelperUITests;
+			sourceTree = "<group>";
+		};
+		9359EFDB2875F84F004638C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93BE3B5B2BC0845500F2BE51 /* Museum */,
+				93BE3B5A2BC0844700F2BE51 /* Navigation */,
+				93AFB59D2BB8DC5800326476 /* Profiles */,
+				9359F01A2878CC9C004638C9 /* Bundles */,
+				9359EFFF2877B32B004638C9 /* Locations */,
+				9359EFF628766A99004638C9 /* Villagers */,
+				93A9A8CB2B28ED82003BC04B /* FarmAnimals */,
+				9359EFF528766A58004638C9 /* Crops */,
+				9359EFF328766817004638C9 /* Fish */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9359EFF328766817004638C9 /* Fish */ = {
+			isa = PBXGroup;
+			children = (
+				9359EFE12875FD11004638C9 /* FishListView.swift */,
+				9359EFEF28765ED5004638C9 /* FishDetailView.swift */,
+			);
+			path = Fish;
+			sourceTree = "<group>";
+		};
+		9359EFF528766A58004638C9 /* Crops */ = {
+			isa = PBXGroup;
+			children = (
+				9359EFF928766AD9004638C9 /* CropListView.swift */,
+				9359F01028788DF8004638C9 /* CropDetailView.swift */,
+			);
+			path = Crops;
+			sourceTree = "<group>";
+		};
+		9359EFF628766A99004638C9 /* Villagers */ = {
+			isa = PBXGroup;
+			children = (
+				9359EFF728766ABE004638C9 /* VillagerListView.swift */,
+				933513012BB0D1910007FDEE /* VillagerDetailView.swift */,
+			);
+			path = Villagers;
+			sourceTree = "<group>";
+		};
+		9359EFFF2877B32B004638C9 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				9359F0002877B33D004638C9 /* LocationListView.swift */,
+				9359F0042877B35C004638C9 /* LocationDetailView.swift */,
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		9359F01A2878CC9C004638C9 /* Bundles */ = {
+			isa = PBXGroup;
+			children = (
+				9359F01B2878CCB9004638C9 /* BundleListView.swift */,
+				9359F01D2878CD1F004638C9 /* RemixBundleDetailView.swift */,
+				9389CFF12BB7B3AF00A5431C /* StandardBundleDetailView.swift */,
+			);
+			path = Bundles;
+			sourceTree = "<group>";
+		};
+		9389CFE02BB64CF400A5431C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9389CFE12BB64D0700A5431C /* StringUtils.swift */,
+				93AFB5A02BB8DEFC00326476 /* ColorUtils.swift */,
+				935B23302BBE6291004A673E /* DateUtils.swift */,
+				93BE3B5E2BC0D99800F2BE51 /* JSONUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		938FCA9E2BB3CAD10007A4F7 /* StringResources */ = {
+			isa = PBXGroup;
+			children = (
+				93AFB5932BB89B5D00326476 /* NPCNames.xcstrings */,
+				93AFB5872BB89AD200326476 /* 1_6_Strings.xcstrings */,
+				93AFB57F2BB89A4A00326476 /* Furniture.xcstrings */,
+				93AFB5812BB89A5F00326476 /* BigCraftables.xcstrings */,
+				93AFB56D2BB8991400326476 /* Buildings.xcstrings */,
+				9389CFDE2BB52D7D00A5431C /* ObjectStrings.xcstrings */,
+				93AFB5632BB8988C00326476 /* Weapons.xcstrings */,
+			);
+			path = StringResources;
+			sourceTree = "<group>";
+		};
+		93A9A8CB2B28ED82003BC04B /* FarmAnimals */ = {
+			isa = PBXGroup;
+			children = (
+				93A9A8CC2B28EDA0003BC04B /* FarmAnimalListView.swift */,
+				93C824C32B2C87FC00B6B1D8 /* FarmAnimalDetailView.swift */,
+			);
+			path = FarmAnimals;
+			sourceTree = "<group>";
+		};
+		93AFB59D2BB8DC5800326476 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				9316A17A28A1907F00E12481 /* HomeView.swift */,
+				93AFB59B2BB8D7D200326476 /* ProfileView.swift */,
+				93AFB59E2BB8DC7700326476 /* EditProfileView.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
+		93BE3B5A2BC0844700F2BE51 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9316A17828A18C1B00E12481 /* MoreView.swift */,
+				9359EFB328753413004638C9 /* ContentView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		93BE3B5B2BC0845500F2BE51 /* Museum */ = {
+			isa = PBXGroup;
+			children = (
+				9316A17C28A190B600E12481 /* MuseumView.swift */,
+			);
+			path = Museum;
+			sourceTree = "<group>";
+		};
+		93FD0DF12BAE4D890031326B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9389CFE02BB64CF400A5431C /* Utils */,
+				93FD0DFA2BAE6AC50031326B /* Components */,
+				93FD0DF32BAE4D930031326B /* ViewModels */,
+				9359EFDB2875F84F004638C9 /* Views */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		93FD0DF32BAE4D930031326B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				93FD0DF52BAE5B790031326B /* FishViewModel.swift */,
+				933512FD2BB0BAD30007FDEE /* CropViewModel.swift */,
+				933512FF2BB0CFE50007FDEE /* VillagerViewModel.swift */,
+				933513032BB0D65F0007FDEE /* FarmAnimalViewModel.swift */,
+				93C3ECB92BB26A5900A40059 /* LocationViewModel.swift */,
+				9389CFE92BB78DE200A5431C /* BundleViewModel.swift */,
+				93BE3B582BBFC1E900F2BE51 /* MuseumViewModel.swift */,
+				93BE3B5C2BC0B2B900F2BE51 /* CoreDataViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		93FD0DF72BAE624B0031326B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				93FD0DF82BAE62660031326B /* FishService.swift */,
+				933512CB2BB0AFE20007FDEE /* ObjectsService.swift */,
+				933512CD2BB0B13F0007FDEE /* CropsService.swift */,
+				933512CF2BB0B14F0007FDEE /* FarmAnimalsService.swift */,
+				933512D12BB0B1610007FDEE /* BigCraftablesService.swift */,
+				933512D42BB0B1BC0007FDEE /* VillagersService.swift */,
+				9335130B2BB0E15A0007FDEE /* GiftService.swift */,
+				93C3ECB72BB269B800A40059 /* LocationService.swift */,
+				93C3ECBF2BB288A400A40059 /* FurnitureService.swift */,
+				9389CFE32BB7866C00A5431C /* LoadData.swift */,
+				9389CFE72BB78D9A00A5431C /* RemixBundlesService.swift */,
+				9389CFED2BB7AAB800A5431C /* StandardBundlesService.swift */,
+				93AFB5992BB8C7ED00326476 /* CategoryService.swift */,
+				93AFB5A52BB8EA6100326476 /* ProfileService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		93FD0DFA2BAE6AC50031326B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				93FD0DFB2BAE6AFF0031326B /* CheckboxToggle.swift */,
+				93FD0DFD2BAE6EFE0031326B /* FishRow.swift */,
+				93FD0DFF2BAE72910031326B /* DataRow.swift */,
+				935B232E2BBE52E1004A673E /* DateButtons.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		93FEF7F42BBBA70B00BD2616 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				93AFB5A22BB8E97500326476 /* ProfileContainer.xcdatamodeld */,
+				93AFB5A72BB8F05500326476 /* PlayerProfile.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9359EFAD28753413004638C9 /* StardewHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9359EFD228753417004638C9 /* Build configuration list for PBXNativeTarget "StardewHelper" */;
+			buildPhases = (
+				9359EFAA28753413004638C9 /* Sources */,
+				9359EFAB28753413004638C9 /* Frameworks */,
+				9359EFAC28753413004638C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StardewHelper;
+			productName = StardewHelper;
+			productReference = 9359EFAE28753413004638C9 /* StardewHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9359EFBD28753417004638C9 /* StardewHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9359EFD528753417004638C9 /* Build configuration list for PBXNativeTarget "StardewHelperTests" */;
+			buildPhases = (
+				9359EFBA28753417004638C9 /* Sources */,
+				9359EFBB28753417004638C9 /* Frameworks */,
+				9359EFBC28753417004638C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9359EFC028753417004638C9 /* PBXTargetDependency */,
+			);
+			name = StardewHelperTests;
+			productName = StardewHelperTests;
+			productReference = 9359EFBE28753417004638C9 /* StardewHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9359EFC728753417004638C9 /* StardewHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9359EFD828753417004638C9 /* Build configuration list for PBXNativeTarget "StardewHelperUITests" */;
+			buildPhases = (
+				9359EFC428753417004638C9 /* Sources */,
+				9359EFC528753417004638C9 /* Frameworks */,
+				9359EFC628753417004638C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9359EFCA28753417004638C9 /* PBXTargetDependency */,
+			);
+			name = StardewHelperUITests;
+			productName = StardewHelperUITests;
+			productReference = 9359EFC828753417004638C9 /* StardewHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9359EFA628753413004638C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9359EFAD28753413004638C9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					9359EFBD28753417004638C9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9359EFAD28753413004638C9;
+					};
+					9359EFC728753417004638C9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9359EFAD28753413004638C9;
+					};
+				};
+			};
+			buildConfigurationList = 9359EFA928753413004638C9 /* Build configuration list for PBXProject "StardewHelper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 9359EFA528753413004638C9;
+			productRefGroup = 9359EFAF28753413004638C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9359EFAD28753413004638C9 /* StardewHelper */,
+				9359EFBD28753417004638C9 /* StardewHelperTests */,
+				9359EFC728753417004638C9 /* StardewHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9359EFAC28753413004638C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9359EFB928753417004638C9 /* Preview Assets.xcassets in Resources */,
+				93AFB56E2BB8991400326476 /* Buildings.xcstrings in Resources */,
+				93AFB5642BB8988C00326476 /* Weapons.xcstrings in Resources */,
+				93EA16382BBA829900B791CE /* Trinkets.json in Resources */,
+				9389CFF02BB7B0C200A5431C /* StandardBundles.json in Resources */,
+				933512BE2BB0AF000007FDEE /* FarmAnimals.json in Resources */,
+				933513082BB0E0860007FDEE /* Fish.json in Resources */,
+				93AFB5802BB89A4A00326476 /* Furniture.xcstrings in Resources */,
+				93AFB5822BB89A5F00326476 /* BigCraftables.xcstrings in Resources */,
+				93AFB5962BB8B5BC00326476 /* Categories.json in Resources */,
+				933512C42BB0AF4F0007FDEE /* FishPondData.json in Resources */,
+				93C3ECB42BB114E400A40059 /* Gifts.json in Resources */,
+				93AFB5882BB89AD200326476 /* 1_6_Strings.xcstrings in Resources */,
+				933512B42BAFA3FF0007FDEE /* Objects.json in Resources */,
+				933512C02BB0AF1A0007FDEE /* BigCraftables.json in Resources */,
+				9389CFDF2BB52D7D00A5431C /* ObjectStrings.xcstrings in Resources */,
+				9359EFB628753417004638C9 /* Assets.xcassets in Resources */,
+				93C3ECBC2BB2806200A40059 /* Furniture.json in Resources */,
+				933512C82BB0AF700007FDEE /* FruitTrees.json in Resources */,
+				93EA16362BBA81BD00B791CE /* FestivalDates.json in Resources */,
+				933512C62BB0AF690007FDEE /* Locations.json in Resources */,
+				93AFB5942BB89B5D00326476 /* NPCNames.xcstrings in Resources */,
+				933512CA2BB0AF7B0007FDEE /* RandomBundles.json in Resources */,
+				933512BC2BB0AEE50007FDEE /* Crops.json in Resources */,
+				933512C22BB0AF2D0007FDEE /* Characters.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9359EFBC28753417004638C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9359EFC628753417004638C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9359EFAA28753413004638C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935B232C2BBE484E004A673E /* ProfileEntity+CoreDataClass.swift in Sources */,
+				935B232D2BBE484E004A673E /* ProfileEntity+CoreDataProperties.swift in Sources */,
+				93AFB5A82BB8F05500326476 /* PlayerProfile.swift in Sources */,
+				933512DF2BB0B5120007FDEE /* BigCraftable.swift in Sources */,
+				9389CFE62BB78B9800A5431C /* RemixBundle.swift in Sources */,
+				93C824C42B2C87FC00B6B1D8 /* FarmAnimalDetailView.swift in Sources */,
+				9359F01C2878CCB9004638C9 /* BundleListView.swift in Sources */,
+				9359F0172878CB69004638C9 /* StandardBundle.swift in Sources */,
+				9335130A2BB0E0C10007FDEE /* Gift.swift in Sources */,
+				9389CFE42BB7866C00A5431C /* LoadData.swift in Sources */,
+				933512D52BB0B1BC0007FDEE /* VillagersService.swift in Sources */,
+				933513042BB0D65F0007FDEE /* FarmAnimalViewModel.swift in Sources */,
+				9359EFB428753413004638C9 /* ContentView.swift in Sources */,
+				933512E32BB0B5420007FDEE /* Weapon.swift in Sources */,
+				933512D22BB0B1610007FDEE /* BigCraftablesService.swift in Sources */,
+				9359EFB228753413004638C9 /* StardewHelperApp.swift in Sources */,
+				9316A17928A18C1B00E12481 /* MoreView.swift in Sources */,
+				933513002BB0CFE50007FDEE /* VillagerViewModel.swift in Sources */,
+				9389CFE22BB64D0700A5431C /* StringUtils.swift in Sources */,
+				933512CE2BB0B13F0007FDEE /* CropsService.swift in Sources */,
+				93AFB5A62BB8EA6100326476 /* ProfileService.swift in Sources */,
+				93AFB5A12BB8DEFC00326476 /* ColorUtils.swift in Sources */,
+				93C3ECB62BB2537500A40059 /* Fish.swift in Sources */,
+				93BE3B5F2BC0D99800F2BE51 /* JSONUtils.swift in Sources */,
+				93BE3B592BBFC1E900F2BE51 /* MuseumViewModel.swift in Sources */,
+				93AFB5A42BB8E97500326476 /* ProfileContainer.xcdatamodeld in Sources */,
+				9359F0012877B33D004638C9 /* LocationListView.swift in Sources */,
+				93FD0DF62BAE5B790031326B /* FishViewModel.swift in Sources */,
+				9359EFF828766ABE004638C9 /* VillagerListView.swift in Sources */,
+				9359EFF028765ED5004638C9 /* FishDetailView.swift in Sources */,
+				933512E52BB0B54F0007FDEE /* Location.swift in Sources */,
+				933512FE2BB0BAD30007FDEE /* CropViewModel.swift in Sources */,
+				933512D72BB0B3CD0007FDEE /* GameObject.swift in Sources */,
+				93AFB5982BB8C13D00326476 /* Category.swift in Sources */,
+				93C3ECBE2BB287A600A40059 /* Furniture.swift in Sources */,
+				93AFB59A2BB8C7ED00326476 /* CategoryService.swift in Sources */,
+				93AFB59F2BB8DC7700326476 /* EditProfileView.swift in Sources */,
+				935B23312BBE6291004A673E /* DateUtils.swift in Sources */,
+				933513022BB0D1910007FDEE /* VillagerDetailView.swift in Sources */,
+				93FD0E002BAE72910031326B /* DataRow.swift in Sources */,
+				93A9A8CD2B28EDA0003BC04B /* FarmAnimalListView.swift in Sources */,
+				93FD0DF92BAE62660031326B /* FishService.swift in Sources */,
+				93C3ECC02BB288A400A40059 /* FurnitureService.swift in Sources */,
+				9389CFEE2BB7AAB800A5431C /* StandardBundlesService.swift in Sources */,
+				9316A17D28A190B600E12481 /* MuseumView.swift in Sources */,
+				933512D92BB0B3FF0007FDEE /* FruitTree.swift in Sources */,
+				9359F0052877B35C004638C9 /* LocationDetailView.swift in Sources */,
+				9359EFFA28766AD9004638C9 /* CropListView.swift in Sources */,
+				9359F01E2878CD1F004638C9 /* RemixBundleDetailView.swift in Sources */,
+				933512CC2BB0AFE20007FDEE /* ObjectsService.swift in Sources */,
+				933512E72BB0B56C0007FDEE /* PondFish.swift in Sources */,
+				933512E12BB0B51A0007FDEE /* Villager.swift in Sources */,
+				9389CFF22BB7B3AF00A5431C /* StandardBundleDetailView.swift in Sources */,
+				9316A17B28A1907F00E12481 /* HomeView.swift in Sources */,
+				9359EFE22875FD11004638C9 /* FishListView.swift in Sources */,
+				935B232F2BBE52E1004A673E /* DateButtons.swift in Sources */,
+				9335130C2BB0E15A0007FDEE /* GiftService.swift in Sources */,
+				9359F01128788DF8004638C9 /* CropDetailView.swift in Sources */,
+				93BE3B622BC38A7A00F2BE51 /* SelectedProfile+CoreDataClass.swift in Sources */,
+				93BE3B632BC38A7A00F2BE51 /* SelectedProfile+CoreDataProperties.swift in Sources */,
+				93FD0DFE2BAE6EFE0031326B /* FishRow.swift in Sources */,
+				93FD0DFC2BAE6AFF0031326B /* CheckboxToggle.swift in Sources */,
+				93AFB59C2BB8D7D200326476 /* ProfileView.swift in Sources */,
+				93C3ECB82BB269B800A40059 /* LocationService.swift in Sources */,
+				933512D02BB0B14F0007FDEE /* FarmAnimalsService.swift in Sources */,
+				933512DB2BB0B4FB0007FDEE /* Crop.swift in Sources */,
+				93BE3B5D2BC0B2B900F2BE51 /* CoreDataViewModel.swift in Sources */,
+				93C3ECBA2BB26A5900A40059 /* LocationViewModel.swift in Sources */,
+				933512DD2BB0B5040007FDEE /* FarmAnimal.swift in Sources */,
+				9389CFEA2BB78DE200A5431C /* BundleViewModel.swift in Sources */,
+				9389CFE82BB78D9A00A5431C /* RemixBundlesService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9359EFBA28753417004638C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9359EFC328753417004638C9 /* StardewHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9359EFC428753417004638C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9359EFCD28753417004638C9 /* StardewHelperUITests.swift in Sources */,
+				9359EFCF28753417004638C9 /* StardewHelperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9359EFC028753417004638C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9359EFAD28753413004638C9 /* StardewHelper */;
+			targetProxy = 9359EFBF28753417004638C9 /* PBXContainerItemProxy */;
+		};
+		9359EFCA28753417004638C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9359EFAD28753413004638C9 /* StardewHelper */;
+			targetProxy = 9359EFC928753417004638C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9359EFD028753417004638C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9359EFD128753417004638C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9359EFD328753417004638C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StardewHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = 8866G8R55G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thedullpencil.StardewHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9359EFD428753417004638C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StardewHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = 8866G8R55G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thedullpencil.StardewHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9359EFD628753417004638C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thedullpencil.StardewHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StardewHelper.app/StardewHelper";
+			};
+			name = Debug;
+		};
+		9359EFD728753417004638C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thedullpencil.StardewHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StardewHelper.app/StardewHelper";
+			};
+			name = Release;
+		};
+		9359EFD928753417004638C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thedullpencil.StardewHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StardewHelper;
+			};
+			name = Debug;
+		};
+		9359EFDA28753417004638C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thedullpencil.StardewHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StardewHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9359EFA928753413004638C9 /* Build configuration list for PBXProject "StardewHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9359EFD028753417004638C9 /* Debug */,
+				9359EFD128753417004638C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9359EFD228753417004638C9 /* Build configuration list for PBXNativeTarget "StardewHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9359EFD328753417004638C9 /* Debug */,
+				9359EFD428753417004638C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9359EFD528753417004638C9 /* Build configuration list for PBXNativeTarget "StardewHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9359EFD628753417004638C9 /* Debug */,
+				9359EFD728753417004638C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9359EFD828753417004638C9 /* Build configuration list for PBXNativeTarget "StardewHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9359EFD928753417004638C9 /* Debug */,
+				9359EFDA28753417004638C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93AFB5A22BB8E97500326476 /* ProfileContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93AFB5A32BB8E97500326476 /* ProfileContainer.xcdatamodel */,
+			);
+			currentVersion = 93AFB5A32BB8E97500326476 /* ProfileContainer.xcdatamodel */;
+			path = ProfileContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9359EFA628753413004638C9 /* Project object */;
+}

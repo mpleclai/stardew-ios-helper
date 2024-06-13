@@ -1,0 +1,1235 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "AddedHay" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Added {0} pieces of hay to the silo."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Has añadido {0} montones de heno al silo."
+          }
+        }
+      }
+    },
+    "Barn_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Houses 4 barn-dwelling animals."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alberga 4 animales de establo."
+          }
+        }
+      }
+    },
+    "Barn_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barn"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Establo"
+          }
+        }
+      }
+    },
+    "BigBarn_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Houses 8 barn-dwelling animals. Allows animals to give birth. Unlocks goats."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alberga 8 animales de establo. Permite a los animales dar a luz. Desbloquea las cabras."
+          }
+        }
+      }
+    },
+    "BigBarn_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Big Barn"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Establo grande"
+          }
+        }
+      }
+    },
+    "BigCoop_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Houses 8 coop-dwelling animals. Comes with an incubator. Unlocks ducks."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alberga 8 animales de corral. Incluye una incubadora. Desbloquea los patos."
+          }
+        }
+      }
+    },
+    "BigCoop_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Big Coop"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corral grande"
+          }
+        }
+      }
+    },
+    "BigShed_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doubles the size of the shed. The interior can be decorated."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobla el tamaño del cobertizo. El interior puede decorarse."
+          }
+        }
+      }
+    },
+    "BigShed_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Big Shed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cobertizo grande"
+          }
+        }
+      }
+    },
+    "BuildingSkinMenu_ChooseAppearance" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select an appearance for your {0}."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona una apariencia para tu {0}."
+          }
+        }
+      }
+    },
+    "Cabin_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A home for a friend! Subsidized by the town agricultural fund."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Un hogar para un amigo! Subvencionado por el fondo agrícola municipal."
+          }
+        }
+      }
+    },
+    "Cabin_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cabin"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cabaña"
+          }
+        }
+      }
+    },
+    "CantEnter" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Can't enter right now"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se puede entrar ahora mismo."
+          }
+        }
+      }
+    },
+    "CantMill" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Can't be milled"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se puede moler."
+          }
+        }
+      }
+    },
+    "CantPutInPonds" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The {0} wouldn't be happy in there."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El {0} no sería feliz aquí."
+          }
+        }
+      }
+    },
+    "Construction_ChooseLocation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Where do you want to manage buildings?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Where do you want to manage buildings?"
+          }
+        }
+      }
+    },
+    "Coop_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Houses 4 coop-dwelling animals."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alberga 4 animales de corral."
+          }
+        }
+      }
+    },
+    "Coop_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coop"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corral"
+          }
+        }
+      }
+    },
+    "DeluxeBarn_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Houses 12 barn-dwelling animals. Comes with an auto-feed system. Unlocks sheep and pigs."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alberga 12 animales de establo. Incluye un sistema de autoalimentación. Desbloquea las ovejas y los cerdos."
+          }
+        }
+      }
+    },
+    "DeluxeBarn_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deluxe Barn"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Establo de lujo"
+          }
+        }
+      }
+    },
+    "DeluxeCoop_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Houses 12 coop-dwelling animals. Comes with an auto-feed system. Unlocks rabbits."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alberga 12 animales de corral. Incluye un sistema de autoalimentación. Desbloquea los conejos."
+          }
+        }
+      }
+    },
+    "DeluxeCoop_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deluxe Coop"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corral de lujo"
+          }
+        }
+      }
+    },
+    "DesertObelisk_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warps you to the desert."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te teletransporta al desierto."
+          }
+        }
+      }
+    },
+    "DesertObelisk_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desert Obelisk"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obelisco del desierto"
+          }
+        }
+      }
+    },
+    "DismountBeforeEntering" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dismount before entering"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desmonta antes de entrar."
+          }
+        }
+      }
+    },
+    "EarthObelisk_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warps you to the mountains."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te teletransporta a la montaña."
+          }
+        }
+      }
+    },
+    "EarthObelisk_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Earth Obelisk"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obelisco terrestre"
+          }
+        }
+      }
+    },
+    "FishPond_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raise fish and harvest their produce. Fish multiply over time."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cría peces para recolectar su producción. Los peces se multiplican con el tiempo."
+          }
+        }
+      }
+    },
+    "FishPond_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fish Pond"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estanque de peces"
+          }
+        }
+      }
+    },
+    "GoldClock_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prevents debris from appearing on your farm. Keeps fences from decaying."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mantiene el suelo de tu granja libre de molestias. También impide que las vallas se deterioren."
+          }
+        }
+      }
+    },
+    "GoldClock_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gold Clock"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reloj de oro"
+          }
+        }
+      }
+    },
+    "Greenhouse_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A place to grow crops from any season; year round!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Un lugar para plantar cultivos de cualquier estación durante todo el año!"
+          }
+        }
+      }
+    },
+    "Greenhouse_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Greenhouse"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invernadero"
+          }
+        }
+      }
+    },
+    "IslandObelisk_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warps you to Ginger Island."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te teletransporta a Isla Jengibre."
+          }
+        }
+      }
+    },
+    "IslandObelisk_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Island Obelisk"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obelisco de la Isla"
+          }
+        }
+      }
+    },
+    "JunimoHut_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Junimos will harvest crops around the hut for you."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Los junimos cosecharán por ti los cultivos que haya junto a la cabaña."
+          }
+        }
+      }
+    },
+    "JunimoHut_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Junimo Hut"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cabaña junimo"
+          }
+        }
+      }
+    },
+    "Mill_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allows you to mill wheat; beets and rice."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permite moler el trigo; las remolachas y el arroz."
+          }
+        }
+      }
+    },
+    "Mill_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mill"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Molino"
+          }
+        }
+      }
+    },
+    "MillFull" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No space left"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No queda espacio."
+          }
+        }
+      }
+    },
+    "NeedSilo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silo Required"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Necesitas un silo."
+          }
+        }
+      }
+    },
+    "NoFish" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fish can be placed into this pond."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puedes colocar peces en este estanque."
+          }
+        }
+      }
+    },
+    "Paint_Region_Building" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Building"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Building"
+          }
+        }
+      }
+    },
+    "Paint_Region_Roof" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roof"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tejado"
+          }
+        }
+      }
+    },
+    "Paint_Region_Trim" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trim"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trim"
+          }
+        }
+      }
+    },
+    "PetBowl_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Provides a dedicated home for one pet."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Provee una casa destinada a una sola mascota."
+          }
+        }
+      }
+    },
+    "PetBowl_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pet Bowl"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuenco para mascota"
+          }
+        }
+      }
+    },
+    "PiecesOfHay" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pieces of Hay= {0}/{1}"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cantidad de heno= {0}/{1}"
+          }
+        }
+      }
+    },
+    "PondFull" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This pond is full."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este estanque está lleno."
+          }
+        }
+      }
+    },
+    "Shed_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An empty building. Fill it with whatever you like! The interior can be decorated."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un edificio vacío. ¡Llénalo con lo que quieras! El interior se puede decorar."
+          }
+        }
+      }
+    },
+    "Shed_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cabaña"
+          }
+        }
+      }
+    },
+    "ShippingBin_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Throw items inside to sell them overnight."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mete objetos en su interior para venderlos durante la noche."
+          }
+        }
+      }
+    },
+    "ShippingBin_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shipping Bin"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cubo de entrega"
+          }
+        }
+      }
+    },
+    "Silo_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allows you to cut and store grass for feed."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te permite segar y acumular hierba para alimentar a tus animales."
+          }
+        }
+      }
+    },
+    "Silo_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silo"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silo"
+          }
+        }
+      }
+    },
+    "SlimeHutch_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raise up to 20 slimes. Fill water troughs and slimes will create slime balls."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cría hasta 20 babas. Llena los abrevaderos y las babas crearán bolas de baba."
+          }
+        }
+      }
+    },
+    "SlimeHutch_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slime Hutch"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criadero de babas"
+          }
+        }
+      }
+    },
+    "Stable_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allows you to keep and ride a horse. Horse included."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te permite tener un caballo y montar en él. Caballo incluido."
+          }
+        }
+      }
+    },
+    "Stable_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stable"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuadra"
+          }
+        }
+      }
+    },
+    "StringKey" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%#@VARIABLE@"
+          },
+          "substitutions" : {
+            "VARIABLE" : {
+              "formatSpecifier" : "",
+              "variations" : {
+                "plural" : {
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : ""
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : ""
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : ""
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : ""
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : ""
+                    }
+                  },
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : ""
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%#@VARIABLE@"
+          },
+          "substitutions" : {
+            "VARIABLE" : {
+              "formatSpecifier" : "",
+              "variations" : {
+                "plural" : {
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : ""
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : ""
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : ""
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : ""
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : ""
+                    }
+                  },
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : ""
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "UnderConstruction" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Under construction."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Construcción en curso."
+          }
+        }
+      }
+    },
+    "WaterObelisk_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warps you to the beach."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te teletransporta a la playa."
+          }
+        }
+      }
+    },
+    "WaterObelisk_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Water Obelisk"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obelisco marino"
+          }
+        }
+      }
+    },
+    "Well_Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Provides a place for you to refill your watering can."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te proporciona un lugar para rellenar tu regadera."
+          }
+        }
+      }
+    },
+    "Well_Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Well"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pozo"
+          }
+        }
+      }
+    },
+    "WrongFishType" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your {0} doesn't want to live in a {1} pond."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu {0} no quiere vivir en un estanque de {1}."
+          }
+        }
+      }
+    },
+    "WrongFishTypeCoral" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{0} can only be placed in a {0} Pond."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{0} solo puede ser colocado en un estanque de {0}."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
